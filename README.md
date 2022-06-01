@@ -23,6 +23,15 @@ This was tested in a VM with Ubuntu 22.04 and 2 additional partitions:
 Note: The first run of any of those tests will take a few hours to complete, because it needs to download all block headers on testnet.  
 Downloading the headers is required only once.
 
+### Prerequisites
+
+1 - Rust toolchain  
+2 - `Tezedge` dependencies:
+
+```
+sudo apt install openssl libssl-dev zlib1g pkg-config libsodium-dev clang libclang-dev llvm llvm-dev linux-kernel-headers libev-dev libhidapi-dev
+```
+
 ## Tezedge context storage (persistent)
 
 This test applies 10 blocks from ithacanet
